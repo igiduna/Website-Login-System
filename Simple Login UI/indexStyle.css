@@ -1,0 +1,48 @@
+#header {
+  color: rgb(14, 228, 89);
+  font-size: 25px;
+  font-style: italic;
+  font-family: cursive;
+  background-color: green;
+  text-align: center;
+  border-radius: 10px;
+}
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbswdZwJZU0BlBIr9wvnxkKGHCn4UrH_ki3w&s");
+}
+
+button {
+  background-color: rgb(12, 218, 53);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#description {
+  color: rgb(12, 218, 53);
+  font-size: 20px;
+  font-family: Geneva;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#img {
+  text-align: center;
+}
+
+#home a {
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: rgb(12, 218, 53);
+}

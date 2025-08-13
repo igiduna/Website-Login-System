@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Budget Planner</title>
+    <link rel="stylesheet" href="./RegistrationStyle.css" />
+    <link
+      rel="icon"
+      href="https://www.libertariancountry.com/cdn/shop/files/chad-meme-sticker-809239.jpg?v=1724445142"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <div id="registerHeader">
+      <h1>Register</h1>
+    </div>
+
+    <div id="loginHeader" style="display: none">
+      <h1>Login</h1>
+    </div>
+
+    <div class="container" id="register-form">
+      <div id="form-container">
+        <div id="username" style="text-align: center">
+          <form>
+            <label for="username">Username</label><br />
+            <input type="text" required placeholder="Enter username" /><br />
+
+            <label for="email">Email</label><br />
+            <input type="email" required placeholder="Enter email" /><br />
+
+            <label for="password">Password</label><br />
+            <input
+              type="password"
+              required
+              placeholder="Enter password"
+            /><br />
+
+            <input class="mainRegLogBtn" type="submit" value="Register" id="register-button" /><br />
+            <p>
+              Already have an account?
+              <button class="reglogBtn" id="login-button2"><b>Login</b></button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="login-form" style="display: none">
+      <div id="form-container">
+        <div id="username" style="text-align: center">
+          <form>
+            <label for="username">Username</label><br />
+            <input type="text" required placeholder="Enter username" /><br />
+
+            <label for="password">Password</label><br />
+            <input
+              type="password"
+              required
+              placeholder="Enter password"
+            /><br />
+
+            <input class="mainRegLogBtn" type="submit" value="Login" id="login-button" /><br />
+            <p id="login-link">
+              No account yet?
+              <button class="reglogBtn" id="register-button2">
+                <b>Register</b>
+              </button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

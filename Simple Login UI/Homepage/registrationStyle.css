@@ -1,0 +1,99 @@
+#registerHeader {
+  color: rgb(86, 20, 20);
+  font-family: cursive;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 25;
+}
+
+#loginHeader {
+  color: rgb(86, 20, 20);
+  font-family: cursive;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 25;
+}
+
+.html {
+  font-size: 30px;
+}
+
+body {
+  background-image: url("https://pngmagic.com/product_images/black-lightning-background-for-intense-video-thumbnails_KS7Q.jpg");
+  font-family: "Comfortaa", cursive;
+}
+
+#username {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+#username input {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Geneva;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid rgb(86, 20, 20);
+}
+
+::placeholder input {
+  color: rgb(86, 20, 20);
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+  margin: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 430px;
+}
+
+#username,
+input[type="text"] {
+  color: rgb(86, 20, 20);
+}
+
+#email input[type="email"] {
+  color: rgb(86, 20, 20);
+  margin: 15px;
+}
+
+#password input[type="password"] {
+  color: rgb(86, 20, 20);
+  margin-bottom: 10px;
+}
+
+.reglogBtn {
+  background-color: rgb(86, 20, 20);
+  color: white;
+  font-size: 20px;
+  font-family: Geneva;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 15px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
